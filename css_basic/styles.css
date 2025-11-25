@@ -3,6 +3,7 @@ main, body {
 }
 body{
     flex-direction: column;
+    background-color: turquoise;
 }
 main {
     flex-direction: row;
@@ -16,4 +17,44 @@ aside {
 }
 article, aside {
     overflow-y: auto;
+}
+header {
+    background-color: teal;
+    
+}
+h1 {
+    color: navy;
+
+}
+h2 {
+    color: rgb(0, 36, 128);
+}  
+h3 {
+    color: maroon;
+}
+h4 {
+    color: teal;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+aside {
+    background-color: turquoise;
+}
+footer {
+    background-color: teal;
+    text-align: center;
+    padding: 10px;
+}
+article {
+    background-color: turquoise;
+}
+p {
+    color: red;
 }
