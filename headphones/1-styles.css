@@ -26,7 +26,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 40px;
-    max-width: 1000px;
+    max-width: 480px;
     margin: 0 auto;
 }
 
@@ -54,35 +54,4 @@
     font-size: 0.9rem;
     line-height: 1.5;
     color: #555;
-}
-/* Holberton School Icons */
-.holberton_school-icon {
-    font-family: 'HolbertonSchoolIcons';
-    font-style: normal;
-    font-weight: normal;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: 0.2em;
-    text-align: center;
-    /* For safety - reset parent styles, that can break glyph codes*/
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    /* fix buttons height, for twitter bootstrap */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.holberton_school-icon-ic_music:before {
-    content: "\e90d";
-}
-.holberton_school-icon-ic_sound:before {
-    content: "\e90e";
-}
-.holberton_school-icon-ic_video:before {
-    content: "\e910";
-}
-.holberton_school-icon-ic_hearing:before {
-    content: "\e909";
 }
