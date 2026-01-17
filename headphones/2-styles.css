@@ -1,0 +1,58 @@
+.our-results {
+    background-image: linear-gradient(to bottom, rgba(26, 26, 46, 0.9), rgba(26, 26, 46, 0.9));
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.our-results h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.our-results .section-intro {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd; 
+}
+
+.results-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.pentagon-item {
+    width: 180px;
+    height: 180px;
+    background-color: #ff6b6b; 
+
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pentagon-content {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pentagon-content h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.pentagon-content p {
+    font-size: 0.9rem;
+    font-weight: 600;
+}

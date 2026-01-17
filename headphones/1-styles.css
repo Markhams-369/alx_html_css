@@ -1,0 +1,88 @@
+/* --- What We Do Section Styles --- */
+.what-we-do {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff; /* White background */
+    color: #333; /* Dark text color */
+}
+
+.what-we-do h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #000; /* Black title color */
+}
+
+.section-intro {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555; /* Slightly lighter text for the paragraph */
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-item {
+    flex: 1 1 200px; /* Responsive item width */
+    text-align: center;
+    padding: 20px;
+}
+
+.service-item .icon {
+    font-size: 4rem;
+    color: #ff6b6b; /* Coral color for icons */
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-item h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+.service-item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #555;
+}
+/* Holberton School Icons */
+.holberton_school-icon {
+    font-family: 'HolbertonSchoolIcons';
+    font-style: normal;
+    font-weight: normal;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: 0.2em;
+    text-align: center;
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    /* fix buttons height, for twitter bootstrap */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.holberton_school-icon-ic_music:before {
+    content: "\e90d";
+}
+.holberton_school-icon-ic_sound:before {
+    content: "\e90e";
+}
+.holberton_school-icon-ic_video:before {
+    content: "\e910";
+}
+.holberton_school-icon-ic_hearing:before {
+    content: "\e909";
+}
