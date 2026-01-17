@@ -8,7 +8,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    background-color: #1a1a2e; /* Fallback background color */
+    background-color: #1a1a2e;
 }
 
 /* Header styles */
@@ -36,7 +36,7 @@ header {
     width: 24px;
     height: 24px;
     margin-right: 10px;
-    stroke: #ff6b6b; /* Coral color */
+    stroke: #ff6565; 
 }
 
 nav ul {
@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff6b6b;
+    color: #ff6565;
 }
 
 /* Hero section styles */
@@ -75,7 +75,7 @@ nav ul li a:hover {
 }
 
 .content {
-    max-width: 800px;
+    max-width: 480px;
 }
 
 h1 {
@@ -93,7 +93,7 @@ h1 {
 .cta-button {
     display: inline-block;
     padding: 15px 40px;
-    background-color: #ff6b6b; /* Coral color */
+    background-color: #ff6565; /* Coral color */
     color: white;
     text-decoration: none;
     font-weight: 700;
@@ -105,13 +105,13 @@ h1 {
 }
 
 .cta-button:hover {
-    background-color: #e55a5a;
+    opacity: 0.9;
 }
 
 .description {
     font-size: 1rem;
     line-height: 1.6;
-    max-width: 700px;
+    max-width: 480px;
     margin: 0 auto;
     font-weight: 400;
 }
