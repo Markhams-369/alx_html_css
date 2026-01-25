@@ -7,3 +7,4 @@ This project is an example project that guides beginners with building a website
 * Create a web using HTML
 * Importing CSS into HTML
 * Using CSS to style the web
+
